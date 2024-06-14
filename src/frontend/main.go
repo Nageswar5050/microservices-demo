@@ -21,16 +21,16 @@ import (
 	"os"
 	"time"
 
-	"cloud.google.com/go/profiler"
+//	"cloud.google.com/go/profiler"
 	"github.com/gorilla/mux"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
-	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
-	"go.opentelemetry.io/otel"
-	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
-	"go.opentelemetry.io/otel/propagation"
-	sdktrace "go.opentelemetry.io/otel/sdk/trace"
+//	"go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc"
+//	"go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp"
+//	"go.opentelemetry.io/otel"
+//	"go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc"
+//	"go.opentelemetry.io/otel/propagation"
+//	sdktrace "go.opentelemetry.io/otel/sdk/trace"
 	"google.golang.org/grpc"
 )
 
